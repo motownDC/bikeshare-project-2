@@ -41,7 +41,7 @@ def get_filters():
         if month in months:
             break
         else:
-            print("I've Never Heard of That Month. Please Try Again")
+            print("I've Never Heard of That Month. Please Check Your Spelling")
     
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
@@ -51,7 +51,7 @@ def get_filters():
         if day in days:
             break
         else:
-            print("I've Never Heard of That Day. Please Try Again")
+            print("I've Never Heard of That Day. Please Check Your Spelling")
 
     print('-'*40)
     return city, month, day
